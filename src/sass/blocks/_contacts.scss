@@ -1,0 +1,49 @@
+.contacts {
+    padding-top: 14px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 200px);
+        column-gap: 35px;
+        justify-content: center;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 20px 180px;
+        
+    }
+    &__img {
+        img {
+            width: 100%;
+            margin-top: -2px;
+        }
+    }
+
+
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #242424;
+    }
+    &__descr {
+        a {
+            padding-top: 5px;
+            display: block;
+            font-size: 11px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #242424;
+        }
+    }
+    &__text {
+        padding-left: 10px;
+    }
+}

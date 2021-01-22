@@ -1,0 +1,57 @@
+.excellence {
+    padding: 80px 10px 80px 10px;
+    &__title {
+        color: #000000;
+        display: block;
+        width: 380px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        grid-template-rows: repeat(3, 355px);
+        column-gap: 0;
+    }
+    &__item {
+        position: relative;
+        &:nth-child(1) {
+            background: url('../../img/advantages/realtime.png') no-repeat 50%/cover;
+        }
+        &:nth-child(2) {
+            background: url('../../img/advantages/intellect.png') no-repeat 50%/cover;
+        }
+        &:nth-child(3) {
+            background: url('../../img/advantages/world.png') no-repeat 50%/cover;
+        }
+        &:nth-child(4) {
+            background: url('../../img/advantages/workflow.png') no-repeat 50%/cover;
+        }
+        &:nth-child(5) {
+            background: url('../../img/advantages/business_process.png') no-repeat 50%/cover;
+        }
+        &:nth-child(6) {
+            background: url('../../img/advantages/payment.png') no-repeat 50%/cover;
+            border: non
+        }
+    }
+    &__bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    &__text {
+        margin: 0 auto;
+        font-size: 23px;
+        width: 290px;
+        text-align: center;
+        color: #ffffff;
+    }
+}

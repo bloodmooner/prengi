@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11.5" height="11.906" viewBox="0 0 11.5 11.906">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="985" y="706.094" width="10.5" height="10.906" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="translate(-984.5 -705.594)" style="fill: none; filter: url(#filter)">
+    <path id="Ellipse_1_copy_4" data-name="Ellipse 1 copy 4" class="cls-1" d="M990.251,706.1a5.454,5.454,0,1,1-5.256,5.45A5.355,5.355,0,0,1,990.251,706.1Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use transform="translate(-984.5 -705.594)" xlink:href="#Ellipse_1_copy_4" style="stroke: #fff; filter: none; fill: none"/>
+</svg>
